@@ -6,5 +6,5 @@ const config = {
   },
   useNullAsDefault: true,
 };
-/** Named exports: or knex won't find them */
+/** Named export */
 export const { client, connection, useNullAsDefault } = config;
